@@ -1,0 +1,3 @@
+# zalert
+
+INTERFACE FOR ZABBIX 2.2
