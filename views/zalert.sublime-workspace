@@ -1,0 +1,584 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fad",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"btn",
+				"btn-success"
+			],
+			[
+				"jquer",
+				"jQuery.get	jQuery.get"
+			],
+			[
+				"trigger",
+				"triggerid"
+			],
+			[
+				"font",
+				"font-size:   (property)"
+			],
+			[
+				"group",
+				"group"
+			],
+			[
+				"groupid",
+				"groupid"
+			],
+			[
+				"tri",
+				"trigger"
+			],
+			[
+				"host",
+				"hostgroupGet  (function)"
+			],
+			[
+				"selec",
+				"select2"
+			],
+			[
+				"te",
+				"team"
+			],
+			[
+				"re",
+				"respond"
+			],
+			[
+				"data",
+				"dataType"
+			],
+			[
+				"mouse",
+				"mouseover	mouseover"
+			],
+			[
+				"get",
+				"getjson	$.getjson()"
+			],
+			[
+				"cho",
+				"chosen-select"
+			],
+			[
+				"chos",
+				"chosen-select"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"su",
+				"submit	submit"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"_",
+				"_pass"
+			],
+			[
+				"ur",
+				"_url"
+			],
+			[
+				"que",
+				"queryString"
+			],
+			[
+				"exist",
+				"array_key_exists"
+			],
+			[
+				"grou",
+				"groupid"
+			],
+			[
+				"tab",
+				"tab_regex"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"arr",
+				"  Create a PHP array."
+			],
+			[
+				"arra",
+				"array(<list>)"
+			],
+			[
+				"ta",
+				"tab_hosts"
+			],
+			[
+				"metho",
+				"method_exists"
+			],
+			[
+				"set",
+				"setNom  (function)"
+			],
+			[
+				"do",
+				"donnees"
+			],
+			[
+				"comp",
+				"compteur"
+			],
+			[
+				"isn",
+				"is_numeric"
+			],
+			[
+				"status",
+				"status_change_minutes"
+			],
+			[
+				"show",
+				"show_maintenance"
+			],
+			[
+				"show_",
+				"show_severity"
+			],
+			[
+				"filter",
+				"filter"
+			],
+			[
+				"cal",
+				"calendrier"
+			],
+			[
+				"per",
+				"perso_a_frapper"
+			],
+			[
+				"e",
+				"_experience"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 118.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"s",
+				"SFTP: Show Panel"
+			],
+			[
+				"sft",
+				"SFTP: Show Panel"
+			],
+			[
+				"SFTP",
+				"SFTP: Setup Server…"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"term",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Conditional if..elsif..else"
+			]
+		],
+		"width": 570.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/plmartinez/Documents/zalert/controllers/trigger_details.php",
+		"/Users/plmartinez/Documents/zalert/views/zalert_subgroups.php",
+		"/Users/plmartinez/Documents/zalert/index.php",
+		"/Users/plmartinez/Documents/zalert/js/zalert.js",
+		"/Users/plmartinez/Documents/zalert/select2-3.4.8/select2_locale_ru.js",
+		"/Users/plmartinez/Documents/zalert/chosen_v1.1.0/chosen.css",
+		"/Users/plmartinez/Documents/zalert/views/triggers.php",
+		"/Users/plmartinez/Documents/zalert/lou-multi-select/css/multi-select.css",
+		"/Users/plmartinez/Documents/zalert/sftp-config.json",
+		"/Users/plmartinez/Documents/zalert/controllers/accueil.php",
+		"/Users/plmartinez/Documents/zalert/PhpZabbixApi_Library/ZabbixApiAbstract.class.php",
+		"/Users/plmartinez/Documents/zalert/models/zalert.php",
+		"/Users/plmartinez/Documents/zalert/main.php",
+		"/Users/plmartinez/Documents/zalert/ZabbixApi.class.php",
+		"/Users/plmartinez/Documents/zalert/ZabbixApiAbstract.class.php",
+		"/Users/plmartinez/Documents/webdev/vue/events.php",
+		"/Users/plmartinez/Documents/zalert/controllers/zalert.php",
+		"/Users/plmartinez/Documents/zalert/views/zalert.php",
+		"/Users/plmartinez/Documents/webdev/modeles/zalert.php",
+		"/Users/plmartinez/Documents/webdev/index.php",
+		"/Users/plmartinez/Documents/webdev/vue/zalert.php",
+		"/Users/plmartinez/Documents/webdev/controleurs/zalert.php",
+		"/Users/plmartinez/Documents/webdev/poo2/zabbix",
+		"/Users/plmartinez/Documents/webdev/poo2/form1.php",
+		"/Users/plmartinez/Documents/webdev/poo2/class.Personnage.php",
+		"/Users/plmartinez/Documents/webdev/poo2/class.PersonnagesManager.php",
+		"/Users/plmartinez/Documents/webdev/poo2/main.php",
+		"/Users/plmartinez/Documents/zabbix/include/func.inc.php",
+		"/Users/plmartinez/Documents/zabbix/dashconf.php",
+		"/Users/plmartinez/Documents/zabbix/include/blocks.inc.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/core/ZBase.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/core/Z.php",
+		"/Users/plmartinez/Documents/zabbix/include/config.inc.php",
+		"/Users/plmartinez/Documents/zabbix/include/page_header.php",
+		"/Users/plmartinez/Documents/zabbix/dashboard.php",
+		"/Users/plmartinez/Documents/zabbix/sftp-config.json",
+		"/Users/plmartinez/Documents/zabbix/overview.php",
+		"/Users/plmartinez/Documents/zabbix/include/views/monitoring.overview.php",
+		"/Users/plmartinez/Documents/zabbix/include/triggers.inc.php",
+		"/Users/plmartinez/Documents/zabbix/tr_status.php",
+		"/Users/plmartinez/Documents/zabbix/include/menu.inc.php",
+		"/Users/plmartinez/Documents/zabbix/index.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/class.cwidget.php",
+		"/Users/plmartinez/Documents/zabbix/include/html.inc.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/class.ccol.php",
+		"/Users/plmartinez/Documents/zabbix/chart.php",
+		"/Users/plmartinez/Documents/zabbix/events.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/class.cformtable.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/class.cformlist.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/class.cform.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/class.ctag.php",
+		"/Users/plmartinez/Documents/zabbix/include/profiles.inc.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/class.cwebuser.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/class.ccombobox.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/class.ctextbox.php",
+		"/Users/plmartinez/Documents/zabbix/include/views/js/monitoring.latest.js.php",
+		"/Users/plmartinez/Documents/zabbix/include/defines.inc.php",
+		"/Users/plmartinez/Documents/zabbix/natixis_overview.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/class.cobject.php",
+		"/Users/plmartinez/Documents/zabbix/profile.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/class.cpagefilter.php",
+		"/Users/plmartinez/Documents/zabbix/latest.php",
+		"/Users/plmartinez/Documents/webdev/tab-css.php",
+		"/Users/plmartinez/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/plmartinez/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/plmartinez/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/plmartinez/Library/Application Support/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/Users/plmartinez/Documents/All/sftp-config.json",
+		"/Users/plmartinez/Documents/zabbix/include/classes/validators/CTimePeriodValidator.php",
+		"/Users/plmartinez/Documents/zabbix/include/perm.inc.php",
+		"/Users/plmartinez/Documents/zabbix/popup.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/screens/CScreenScreen.php",
+		"/Users/plmartinez/Documents/zabbix/include/views/inventory.host.list.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/screens/CScreenSystemStatus.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/validators/event/CEventSourceObjectValidator.php",
+		"/Users/plmartinez/Documents/zabbix/include/views/administration.general.valuemapping.list.php",
+		"/Users/plmartinez/Documents/zabbix/include/classes/screens/CScreenActions.php",
+		"/Users/plmartinez/Documents/zabbix/include/translateDefines.inc.php",
+		"/Users/plmartinez/Library/Application Support/Sublime Text 3/Packages/SFTP/Default (OSX).sublime-keymap",
+		"/Users/plmartinez/Documents/webdev/sftp-config-alt2.json",
+		"/Users/plmartinez/Documents/webdev/sftp-config-alt.json",
+		"/Users/plmartinez/Documents/webdev/sftp-config.json",
+		"/Users/plmartinez/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/Users/plmartinez/Documents/192.168.0.17",
+		"/Users/plmartinez/Documents/test.py",
+		"/Users/plmartinez/Library/Application Support/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
+		"/Users/plmartinez/Documents/test.pl",
+		"/Users/plmartinez/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/plmartinez/Library/Application Support/Sublime Text 3/Packages/Terminal/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"select",
+			">\";\n",
+			"echo",
+			"_url",
+			"request",
+			"function re",
+			"function req",
+			"functio re",
+			"getGrou",
+			"Group",
+			"group",
+			"priority",
+			";\n",
+			");\n",
+			"echo $paul->force();\n",
+			"echo",
+			"\n$",
+			"_nom",
+			"favobj",
+			"minute",
+			"minutes",
+			"status_change_days",
+			"statusChangeDays",
+			"daysSpan",
+			"status",
+			"overview",
+			"filter.state",
+			"filter_state",
+			"filter.state",
+			"mainten",
+			"day",
+			"da",
+			"showSever",
+			"$showSeverity",
+			"tr_status",
+			"tr_sa",
+			"tr_status",
+			"web.overview",
+			"overview",
+			"over",
+			"overv",
+			"natixis_overview",
+			"table_heade",
+			"get_table_header",
+			"triggerWidg",
+			"unpa",
+			"function attr",
+			"attr",
+			"pageheader",
+			"time ",
+			"time",
+			"timelinefixedperiod",
+			"header",
+			"attribute",
+			"tr_status",
+			"txt_select",
+			"filter",
+			"CProfile",
+			"CProfil",
+			"fontion",
+			"function",
+			"fon",
+			"fonction get",
+			"overview",
+			"frapper",
+			"theme",
+			"default",
+			"frapper",
+			"\n$",
+			";\n",
+			"\n$",
+			">\n",
+			" \""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"status_change_time",
+			"statusChangeTime",
+			"timeSpan",
+			"overview",
+			"tr_status",
+			"web.overview\n",
+			"web.overview.natixis\n",
+			"overview\n",
+			";\n"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "zalert.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"webdev/poo/poo.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+			[
+				"",
+				"salut"
+			]
+		],
+		"width": 363.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

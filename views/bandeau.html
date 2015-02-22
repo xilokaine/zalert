@@ -1,0 +1,140 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zalert!</title>
+
+    <link href="jquery-ui-1.10.4.custom/css/smoothness/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+    <link href="bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-3.1.1-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="select2-3.4.8/select2.css" rel="stylesheet">
+    <link href="chosen_v1.1.0/chosen.min.css" rel="stylesheet">
+    <link href="DataTables-1.10.0/media/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="css/zalert.css" rel="stylesheet">
+
+
+     <script src="jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
+     <script src="jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
+     <script src="bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
+    <script src="select2-3.4.8/select2.js"></script>
+    <script src="chosen_v1.1.0/chosen.jquery.min.js"></script>
+    <script src="DataTables-1.10.0/media/js/jquery.dataTables.js"></script>
+    <script src="DataTables-1.10.0/media/js/fnReloadAjax.js"></script>
+    <script src="noty-2.2.2/js/noty/packaged/jquery.noty.packaged.min.js"></script>
+
+  </head>
+
+
+  <body>
+
+
+  <!-- fin du chargement des librairies -->
+
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- <a class="navbar-brand" href="#">Zalert !</a> -->
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active">
+
+
+
+
+        </li>
+
+     
+      </ul>
+      <!-- <form class="navbar-form navbar-left" role="search"> -->
+        <div class="navbar-form navbar-left" role="search" class="form-group">
+
+  <select id="value" class="form-control"/>
+  <option value="0">All</option>
+  <option value="1"  selected="selected">Problem</option>
+  </select>
+
+
+
+
+  <select id="ack" class="form-control"/>
+  <option value="0">Any</option>
+  <option value="1">Acknowledged</option>
+  </select>
+          
+          <select id="min_severity"  class="form-control">
+          <option value="0">Not Classified</option>
+          <option value="1">Information</option>
+          <option value="2">Warning</option>
+          <option value="3">Average</option>
+          <option value="4">High</option>
+          <option value="5">Disaster</option>
+          </select>
+          
+          <input type="text" id="Host" class="form-control" placeholder="Host">  
+          <input type="text" id="triggerName" class="form-control" placeholder="Trigger">  
+
+
+
+  <select id="team" multiple class="form-control">
+  <!-- <option value=""></option> -->
+  <?php
+  foreach ($hostgroups as $group)
+    if ($group->name == "prd-metrologie-instru") {
+      echo '<option value="'.$group->groupid.'" selected="selected">'.$group->name.'</option>'."\n";
+    }else{
+      echo '<option value="'.$group->groupid.'">'.$group->name.'</option>'."\n";
+    }
+
+  ?>
+  </select>
+
+  </style>
+        </div>
+
+        <!-- <button type="submit" class="btn btn-default">Submit</button> -->
+      <!-- </form> -->
+      <ul class="nav navbar-nav navbar-right">
+        <!-- <li><a href="#">save filter</a></li> -->
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="main.php?page=zalert">Beta</a></li>
+            <li><a href="main.php?page=bips">Alert pop</a></li>
+            <li><a href="main.php?page=data">Try Ajax datatable</a></li>
+            <li><a href="main.php?page=datatable">json</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<script>
+
+
+jQuery("#team").chosen({
+  // "no_results_text" : "not match",
+  // "search_contains" : true,
+  // "placeholder_text_single" : "",
+  // "placeholder_text_multiple" : "   ",
+  // "inherit_select_classes" : true
+
+}); 
+
+</script>
